@@ -114,3 +114,13 @@ h2:: ::first-letter{
      border-top: 1opx;
      padding-left: 5px;
  }
+div+#abc1{
+    font-size:larger;
+    background-color: antiquewhite;
+
+}
+}    
+ span{
+     background-color: brown;
+     padding: 50px;
+ }
