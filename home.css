@@ -1,0 +1,115 @@
+p{
+font-size: 20px;
+color: purple;
+background-color: aquamarine;
+}
+
+button{
+color:yellowgreen;
+background-color: indigo;
+}
+h2{
+background-color: lightgreen;
+font-size: 20px;  
+width: 20%; 
+text-decoration: red underline wavy; 
+font-size: 30px;
+font-family: monospace;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+
+}
+
+
+  p+ button
+   {
+    font-size: 30px;
+    color: magenta;
+    background-color: burlywood ;
+   }
+
+   a[href*=home]{
+       color: brown;
+       font-size: 52px;
+   }
+   button:hover {
+background-color: bisque;
+color: forestgreen;
+font-weight: 700;
+text-decoration: underline;
+   }
+   button {
+       color: blueviolet;
+       background-color: bisque;
+       text-align: end;
+       text-decoration: wavy;
+   }
+   section{
+       background-color: blue;
+       font-size: 22px;
+       color: blanchedalmond;
+
+   }
+
+h2:: ::first-letter{
+    font-size: 1000px;
+}
+   section:: ::first-line{
+       color: yellow;
+   }
+   h1,h2 {
+       color: maroon !important;
+   }
+
+  /*div{
+       width: 200px;
+       height: 200px;*/
+    
+   }
+   #one{
+       background-color: darkorange;
+       border-color: darkgray;
+       border-style:dotted;
+       box-sizing: border-box;
+       padding-top: 10px;
+   }
+#two{
+    background-color: grey;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-right: 111px;
+}
+
+#three{
+    background-color: wheat;
+    bottom: 10px;
+    top: 15px;
+    color: brown;
+    border: 4px solid;
+    border-left-style: dotted;
+    margin-top: 20px;
+}
+ #padding {
+     height: 25px;
+     width: 100px;
+     padding: 100px;
+     
+ }
+ #pad{
+     padding: 10px 20px 30px 40px;
+ }
+ #InlineBlock{
+     background-color: greenyellow;
+     font-style: italic;
+     border-top: 1opx;
+ }
