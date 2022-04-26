@@ -29,10 +29,75 @@
     height: 300px;
     width: 300px;
     background-color: maroon;
-    transition: background-color 2s;
+    transition: 3s;
 
 }
-.circle :hover{
-    background-color: rgb(226, 28, 28);
-    border-radius: 50%;
+.circle:hover{
+    background-color:blue;
+    border-radius:50%;
 }
+
+section div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+section :hover div{
+    margin-bottom: 500px;
+}
+div:nth-of-type(1){
+    transition-timing-function: ease-in ;
+}
+
+div:nth-of-type(2){
+    transition-timing-function: ease-out ;
+}
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+h5{
+    background-color: brown;
+    width: 10%;
+    color: rgb(246, 227, 241);
+    border: 5px greenyellow solid;
+    padding: 0.7em;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+
+}
+
+h5:nth-of-type(2n){
+    background-color : blue;
+}
+
+h5:nth-of-type(1){
+    transform-origin:bottom-right ;
+    transform: rotate(45deg);
+}
+section:first-of-type h5 :nth-of-type(2){
+transform: scale(o.5);
+}
+
+h5:nth-of-type(3){
+    transform: translateX(200px);
+    color: rgb(0, 0, 0);
+    
+
+h5:nth-of-type(4){
+    transform: translate (-200px 100px);
+  
+}section:nth-of-type(1) h5 :nth-of-type(3){
+    transform: skew(30deg);
+}
+h5:nth-of-type(3){
+    transform: skew(30deg);
+
