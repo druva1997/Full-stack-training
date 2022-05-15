@@ -1,0 +1,303 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topdiv{
+    display: flex;
+    flex-direction: row;
+    background-color: skyblue;
+    color: aliceblue;
+    height: 40px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 5px;
+
+}
+.topindiv{
+    display: flex;
+    flex-direction: row;
+}
+.topicon{
+    padding-right: 15px;
+    font-size: 10px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+}
+h2{
+    text-align: center;
+    font-size: 30px;  
+}
+h3{
+    text-align: center;
+    font-size:20px ;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+/* nav starts */
+nav
+{
+    background-color: white;
+    padding: 7px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+    padding-top: 17px;
+    height: 100px;
+}
+nav ul a
+{
+    color:gray;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 500;
+    transition:color .5s ;
+    font-size: 15PX;
+}
+nav ul a:hover
+{
+    color: rgb(3, 220, 228);
+}
+nav ul li
+{
+    display: inline;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 20px;
+}
+nav button
+{
+    background-color: rgb(3, 220, 228);
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 10px;
+    color: white;
+}
+nav a img{
+    height: 50px;
+    width: 150px;
+    margin-left: 53px;
+    
+}
+nav a h1{
+    display: inline;
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 13px;
+}
+nav ul li a select
+{
+    border-color: transparent;
+}
+/* nav ends */
+
+.banner
+{
+    height: 500px;
+     background-image: url(https://www.kreedon.com/wp-content/uploads/2022/03/sunsetyoga-2_647_062115121022.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content
+{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.89) ;
+    justify-content: space-around;
+    width: 1250px;
+    height: 300px;
+}
+.banner .heading-1
+{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+}
+.banner .button1
+{
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:rgb(3, 220, 228); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.block{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     background-color: rgba(211, 211, 211, 0.164);
+}
+.block .b1 h1
+{
+    height: 70px;
+    width: 200px;
+    font-size: 18px;
+}
+.block .b1{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+.block .yoga1{
+width: 200px;
+height: 100px;
+}
+.block .yoga2{
+    width: 200px;
+    height: 100px;
+     
+}
+.block .yoga3{
+    width: 200px;
+    height: 100px;
+     
+}
+.block .yoga4{
+    width: 200px;
+    height: 100px;
+     
+}
+.block .b1:hover{  
+    background-color:rgb(141, 132, 11);
+    color: white;
+}
+.block .b1 h1,.block .b1 p{
+    margin-left: 20px;
+}
+.block i{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+
+
+
+
+.b2{
+    background-color:rgb(3, 220, 228); 
+    color: white;   
+}
+.b2 .b2div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+.b2 .b2div h1,.b2 .b2div p{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.b2 .b2div button{
+    height: 50px;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 2000;
+}
+.b2 .b2div button:hover{
+    background-color: white;
+    color: rgb(3, 220, 228);
+}
+
+
+.appoint{
+    background-color: rgba(136, 208, 236, 0.164);
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.appoint  input, .appoint select{
+
+    margin: 20px ;
+    height: 40px;
+    width: 360px;
+}
+.appoint textarea{
+    margin: 20px;
+
+}
+.appoint p {
+    margin: 20px;
+    text-align: center;
+
+}
+.appoint button{
+    background-color: #03C4EB;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    border-radius: 25px;
+
+}
+
+.gallery{
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.img{
+    margin-left: 55px;
+    background-color: #eff3ed;
+}
+.img1 img{
+    margin:10px ;
+    height: 180px;
+    width: 170px;
+}
+
+.end{
+    height: 70px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
